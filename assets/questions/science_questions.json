@@ -1,0 +1,152 @@
+[
+  {
+    "id": "sci_001",
+    "questionText": "What is the chemical symbol for gold?",
+    "type": 0,
+    "difficulty": 0,
+    "category": 0,
+    "options": ["Au", "Ag", "Fe", "Cu"],
+    "correctAnswer": "Au",
+    "points": 10
+  },
+  {
+    "id": "sci_002",
+    "questionText": "What planet is known as the Red Planet?",
+    "type": 0,
+    "difficulty": 0,
+    "category": 0,
+    "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "correctAnswer": "Mars",
+    "points": 10
+  },
+  {
+    "id": "sci_003",
+    "questionText": "What is the speed of light?",
+    "type": 0,
+    "difficulty": 1,
+    "category": 0,
+    "options": ["299,792 km/s", "150,000 km/s", "500,000 km/s", "1,000,000 km/s"],
+    "correctAnswer": "299,792 km/s",
+    "points": 20
+  },
+  {
+    "id": "sci_004",
+    "questionText": "Water boils at 100 degrees Celsius at sea level.",
+    "type": 1,
+    "difficulty": 0,
+    "category": 0,
+    "options": ["True", "False"],
+    "correctAnswer": "True",
+    "points": 10
+  },
+  {
+    "id": "sci_005",
+    "questionText": "The powerhouse of the cell is the _____.",
+    "type": 2,
+    "difficulty": 1,
+    "category": 0,
+    "options": [],
+    "correctAnswer": "mitochondria",
+    "points": 20
+  },
+  {
+    "id": "sci_006",
+    "questionText": "What is the atomic number of carbon?",
+    "type": 0,
+    "difficulty": 1,
+    "category": 0,
+    "options": ["6", "12", "8", "14"],
+    "correctAnswer": "6",
+    "points": 20
+  },
+  {
+    "id": "sci_007",
+    "questionText": "Gravity is stronger on the Moon than on Earth.",
+    "type": 1,
+    "difficulty": 0,
+    "category": 0,
+    "options": ["True", "False"],
+    "correctAnswer": "False",
+    "points": 10
+  },
+  {
+    "id": "sci_008",
+    "questionText": "What gas do plants absorb from the atmosphere?",
+    "type": 0,
+    "difficulty": 0,
+    "category": 0,
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "correctAnswer": "Carbon Dioxide",
+    "points": 10
+  },
+  {
+    "id": "sci_009",
+    "questionText": "E = mc² was formulated by _____.",
+    "type": 2,
+    "difficulty": 1,
+    "category": 0,
+    "options": [],
+    "correctAnswer": "Einstein",
+    "points": 20
+  },
+  {
+    "id": "sci_010",
+    "questionText": "What is the hardest natural substance on Earth?",
+    "type": 0,
+    "difficulty": 0,
+    "category": 0,
+    "options": ["Gold", "Iron", "Diamond", "Platinum"],
+    "correctAnswer": "Diamond",
+    "points": 10
+  },
+  {
+    "id": "sci_011",
+    "questionText": "What is the most abundant gas in Earth's atmosphere?",
+    "type": 0,
+    "difficulty": 2,
+    "category": 0,
+    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Argon"],
+    "correctAnswer": "Nitrogen",
+    "points": 30
+  },
+  {
+    "id": "sci_012",
+    "questionText": "The human body has 206 bones.",
+    "type": 1,
+    "difficulty": 1,
+    "category": 0,
+    "options": ["True", "False"],
+    "correctAnswer": "True",
+    "points": 20
+  },
+  {
+    "id": "sci_013",
+    "questionText": "What particle has a negative charge?",
+    "type": 0,
+    "difficulty": 1,
+    "category": 0,
+    "options": ["Proton", "Neutron", "Electron", "Photon"],
+    "correctAnswer": "Electron",
+    "points": 20
+  },
+  {
+    "id": "sci_014",
+    "questionText": "DNA stands for Deoxyribonucleic _____.",
+    "type": 2,
+    "difficulty": 2,
+    "category": 0,
+    "options": [],
+    "correctAnswer": "Acid",
+    "points": 30
+  },
+  {
+    "id": "sci_015",
+    "questionText": "Absolute zero is -273.15°C.",
+    "type": 1,
+    "difficulty": 2,
+    "category": 0,
+    "options": ["True", "False"],
+    "correctAnswer": "True",
+    "points": 30
+  }
+]

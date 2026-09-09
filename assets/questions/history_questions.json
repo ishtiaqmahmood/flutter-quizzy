@@ -1,0 +1,152 @@
+[
+  {
+    "id": "hist_001",
+    "questionText": "Who was the first President of the United States?",
+    "type": 0,
+    "difficulty": 0,
+    "category": 1,
+    "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+    "correctAnswer": "George Washington",
+    "points": 10
+  },
+  {
+    "id": "hist_002",
+    "questionText": "In which year did World War II end?",
+    "type": 0,
+    "difficulty": 0,
+    "category": 1,
+    "options": ["1945", "1944", "1946", "1943"],
+    "correctAnswer": "1945",
+    "points": 10
+  },
+  {
+    "id": "hist_003",
+    "questionText": "The Great Wall of China was built to protect against invasions.",
+    "type": 1,
+    "difficulty": 0,
+    "category": 1,
+    "options": ["True", "False"],
+    "correctAnswer": "True",
+    "points": 10
+  },
+  {
+    "id": "hist_004",
+    "questionText": "Who discovered America in 1492?",
+    "type": 0,
+    "difficulty": 0,
+    "category": 1,
+    "options": ["Christopher Columbus", "Vasco da Gama", "Ferdinand Magellan", "Amerigo Vespucci"],
+    "correctAnswer": "Christopher Columbus",
+    "points": 10
+  },
+  {
+    "id": "hist_005",
+    "questionText": "The French Revolution began in the year _____.",
+    "type": 2,
+    "difficulty": 1,
+    "category": 1,
+    "options": [],
+    "correctAnswer": "1789",
+    "points": 20
+  },
+  {
+    "id": "hist_006",
+    "questionText": "Who was known as the Maid of Orléans?",
+    "type": 0,
+    "difficulty": 1,
+    "category": 1,
+    "options": ["Joan of Arc", "Marie Antoinette", "Catherine de Medici", "Eleanor of Aquitaine"],
+    "correctAnswer": "Joan of Arc",
+    "points": 20
+  },
+  {
+    "id": "hist_007",
+    "questionText": "The Roman Empire fell in 476 AD.",
+    "type": 1,
+    "difficulty": 1,
+    "category": 1,
+    "options": ["True", "False"],
+    "correctAnswer": "True",
+    "points": 20
+  },
+  {
+    "id": "hist_008",
+    "questionText": "Which ancient civilization built Machu Picchu?",
+    "type": 0,
+    "difficulty": 1,
+    "category": 1,
+    "options": ["Inca", "Aztec", "Maya", "Olmec"],
+    "correctAnswer": "Inca",
+    "points": 20
+  },
+  {
+    "id": "hist_009",
+    "questionText": "The Magna Carta was signed in _____.",
+    "type": 2,
+    "difficulty": 2,
+    "category": 1,
+    "options": [],
+    "correctAnswer": "1215",
+    "points": 30
+  },
+  {
+    "id": "hist_010",
+    "questionText": "Napoleon Bonaparte was exiled to the island of St. Helena.",
+    "type": 1,
+    "difficulty": 1,
+    "category": 1,
+    "options": ["True", "False"],
+    "correctAnswer": "True",
+    "points": 20
+  },
+  {
+    "id": "hist_011",
+    "questionText": "Who was the first Emperor of Rome?",
+    "type": 0,
+    "difficulty": 2,
+    "category": 1,
+    "options": ["Augustus", "Julius Caesar", "Nero", "Caligula"],
+    "correctAnswer": "Augustus",
+    "points": 30
+  },
+  {
+    "id": "hist_012",
+    "questionText": "The Renaissance began in which country?",
+    "type": 0,
+    "difficulty": 1,
+    "category": 1,
+    "options": ["Italy", "France", "England", "Spain"],
+    "correctAnswer": "Italy",
+    "points": 20
+  },
+  {
+    "id": "hist_013",
+    "questionText": "The Berlin Wall fell in 1989.",
+    "type": 1,
+    "difficulty": 0,
+    "category": 1,
+    "options": ["True", "False"],
+    "correctAnswer": "True",
+    "points": 10
+  },
+  {
+    "id": "hist_014",
+    "questionText": "Who wrote the Declaration of Independence?",
+    "type": 0,
+    "difficulty": 1,
+    "category": 1,
+    "options": ["Thomas Jefferson", "John Adams", "Benjamin Franklin", "George Washington"],
+    "correctAnswer": "Thomas Jefferson",
+    "points": 20
+  },
+  {
+    "id": "hist_015",
+    "questionText": "The Silk Road connected Asia with _____.",
+    "type": 2,
+    "difficulty": 2,
+    "category": 1,
+    "options": [],
+    "correctAnswer": "Europe",
+    "points": 30
+  }
+]
