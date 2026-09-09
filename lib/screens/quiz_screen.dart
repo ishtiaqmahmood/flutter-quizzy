@@ -124,10 +124,10 @@ class _QuizScreenState extends State<QuizScreen> {
     });
   }
 
-  void _finishQuiz() {
+  void _finishQuiz() async {
     _timer?.cancel();
     final result = _session.finishQuiz();
-    StorageService().saveQuizResult(result);
+    await StorageService().saveQuizResult(result);
     
     Navigator.pushReplacementNamed(
       context,

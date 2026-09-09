@@ -25,6 +25,8 @@ class CategoryCard extends StatelessWidget {
         return Icons.public;
       case Category.literature:
         return Icons.menu_book;
+      case Category.technology:
+        return Icons.computer;
     }
   }
 
@@ -40,6 +42,8 @@ class CategoryCard extends StatelessWidget {
         return Colors.teal;
       case Category.literature:
         return Colors.purple;
+      case Category.technology:
+        return Colors.indigo;
     }
   }
 
@@ -55,6 +59,8 @@ class CategoryCard extends StatelessWidget {
         return 'Geography';
       case Category.literature:
         return 'Literature';
+      case Category.technology:
+        return 'Technology';
     }
   }
 

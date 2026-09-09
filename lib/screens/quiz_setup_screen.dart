@@ -14,9 +14,32 @@ class _QuizSetupScreenState extends State<QuizSetupScreen> {
   Category? _selectedCategory;
   Difficulty? _selectedDifficulty;
   int _questionCount = 10;
+  Map<Category, int> _categoryScores = {};
+  bool _isLoading = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadCategoryScores();
+  }
+
+  Future<void> _loadCategoryScores() async {
+    final storageService = StorageService();
+    final stats = await storageService.getUserStats();
+    setState(() {
+      _categoryScores = stats.categoryScores;
+      _isLoading = false;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
+    if (_isLoading) {
+      return const Scaffold(
+        body: Center(child: CircularProgressIndicator()),
+      );
+    }
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('New Quiz'),
@@ -45,8 +68,7 @@ class _QuizSetupScreenState extends State<QuizSetupScreen> {
               itemCount: Category.values.length,
               itemBuilder: (context, index) {
                 final category = Category.values[index];
-                final storageService = StorageService();
-                final count = storageService.getUserStats().categoryScores[category] ?? 0;
+                final count = _categoryScores[category] ?? 0;
                 
                 return _buildCategoryCard(category, count);
               },
@@ -169,6 +191,11 @@ class _QuizSetupScreenState extends State<QuizSetupScreen> {
         name = 'Literature';
         icon = Icons.menu_book;
         color = Colors.purple;
+        break;
+      case Category.technology:
+        name = 'Technology';
+        icon = Icons.computer;
+        color = Colors.indigo;
         break;
     }
     

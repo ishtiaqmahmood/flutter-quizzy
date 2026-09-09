@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hive_flutter/hive_flutter.dart';
 import 'screens/home_screen.dart';
 import 'screens/quiz_setup_screen.dart';
 import 'screens/quiz_screen.dart';
@@ -11,9 +10,8 @@ import 'models/quiz_result.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
-  // Initialize Hive for offline storage
-  await Hive.initFlutter();
-  await StorageService().initialize();
+  // Initialize SQLite for offline storage
+  await StorageService().database;
   
   runApp(const QuizzyApp());
 }

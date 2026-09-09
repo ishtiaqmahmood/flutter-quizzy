@@ -22,8 +22,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _loadUserStats() async {
     final storageService = StorageService();
+    final stats = await storageService.getUserStats();
     setState(() {
-      _userStats = storageService.getUserStats();
+      _userStats = stats;
       _isLoading = false;
     });
   }

@@ -198,6 +198,8 @@ class ResultScreen extends StatelessWidget {
         return 'Geography';
       case Category.literature:
         return 'Literature';
+      case Category.technology:
+        return 'Technology';
     }
   }
 
