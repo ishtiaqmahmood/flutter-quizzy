@@ -1,0 +1,152 @@
+[
+  {
+    "id": "sport_001",
+    "questionText": "How many players are on a soccer team on the field?",
+    "type": 0,
+    "difficulty": 0,
+    "category": 2,
+    "options": ["11", "10", "12", "9"],
+    "correctAnswer": "11",
+    "points": 10
+  },
+  {
+    "id": "sport_002",
+    "questionText": "In which sport would you perform a slam dunk?",
+    "type": 0,
+    "difficulty": 0,
+    "category": 2,
+    "options": ["Basketball", "Volleyball", "Tennis", "Baseball"],
+    "correctAnswer": "Basketball",
+    "points": 10
+  },
+  {
+    "id": "sport_003",
+    "questionText": "The Olympic Games are held every four years.",
+    "type": 1,
+    "difficulty": 0,
+    "category": 2,
+    "options": ["True", "False"],
+    "correctAnswer": "True",
+    "points": 10
+  },
+  {
+    "id": "sport_004",
+    "questionText": "Which country won the first FIFA World Cup in 1930?",
+    "type": 0,
+    "difficulty": 1,
+    "category": 2,
+    "options": ["Uruguay", "Brazil", "Argentina", "Italy"],
+    "correctAnswer": "Uruguay",
+    "points": 20
+  },
+  {
+    "id": "sport_005",
+    "questionText": "A tennis Grand Slam consists of _____ tournaments.",
+    "type": 2,
+    "difficulty": 1,
+    "category": 2,
+    "options": [],
+    "correctAnswer": "four",
+    "points": 20
+  },
+  {
+    "id": "sport_006",
+    "questionText": "Who holds the record for most home runs in MLB history?",
+    "type": 0,
+    "difficulty": 1,
+    "category": 2,
+    "options": ["Barry Bonds", "Babe Ruth", "Hank Aaron", "Willie Mays"],
+    "correctAnswer": "Barry Bonds",
+    "points": 20
+  },
+  {
+    "id": "sport_007",
+    "questionText": "A marathon is 26.2 miles long.",
+    "type": 1,
+    "difficulty": 0,
+    "category": 2,
+    "options": ["True", "False"],
+    "correctAnswer": "True",
+    "points": 10
+  },
+  {
+    "id": "sport_008",
+    "questionText": "In golf, what is one stroke under par called?",
+    "type": 0,
+    "difficulty": 0,
+    "category": 2,
+    "options": ["Birdie", "Eagle", "Bogey", "Albatross"],
+    "correctAnswer": "Birdie",
+    "points": 10
+  },
+  {
+    "id": "sport_009",
+    "questionText": "Michael Jordan played professional _____ and baseball.",
+    "type": 2,
+    "difficulty": 0,
+    "category": 2,
+    "options": [],
+    "correctAnswer": "basketball",
+    "points": 10
+  },
+  {
+    "id": "sport_010",
+    "questionText": "Which sport uses a puck instead of a ball?",
+    "type": 0,
+    "difficulty": 0,
+    "category": 2,
+    "options": ["Ice Hockey", "Field Hockey", "Lacrosse", "Polo"],
+    "correctAnswer": "Ice Hockey",
+    "points": 10
+  },
+  {
+    "id": "sport_011",
+    "questionText": "Who has won the most Olympic gold medals?",
+    "type": 0,
+    "difficulty": 2,
+    "category": 2,
+    "options": ["Michael Phelps", "Usain Bolt", "Carl Lewis", "Mark Spitz"],
+    "correctAnswer": "Michael Phelps",
+    "points": 30
+  },
+  {
+    "id": "sport_012",
+    "questionText": "In American football, a touchdown is worth 6 points.",
+    "type": 1,
+    "difficulty": 0,
+    "category": 2,
+    "options": ["True", "False"],
+    "correctAnswer": "True",
+    "points": 10
+  },
+  {
+    "id": "sport_013",
+    "questionText": "Which boxing weight class is the heaviest?",
+    "type": 0,
+    "difficulty": 1,
+    "category": 2,
+    "options": ["Heavyweight", "Cruiserweight", "Light Heavyweight", "Super Middleweight"],
+    "correctAnswer": "Heavyweight",
+    "points": 20
+  },
+  {
+    "id": "sport_014",
+    "questionText": "The Super Bowl is the championship game of the _____.",
+    "type": 2,
+    "difficulty": 0,
+    "category": 2,
+    "options": [],
+    "correctAnswer": "NFL",
+    "points": 10
+  },
+  {
+    "id": "sport_015",
+    "questionText": "Serena Williams is famous for playing which sport?",
+    "type": 0,
+    "difficulty": 0,
+    "category": 2,
+    "options": ["Tennis", "Golf", "Basketball", "Volleyball"],
+    "correctAnswer": "Tennis",
+    "points": 10
+  }
+]
