@@ -339,6 +339,11 @@ class _HomeScreenState extends State<HomeScreen> {
         icon = Icons.menu_book;
         color = Colors.purple;
         break;
+      case Category.technology:
+        name = 'Technology';
+        icon = Icons.computer;
+        color = Colors.indigo;
+        break;
     }
     
     return Card(

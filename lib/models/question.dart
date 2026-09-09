@@ -16,6 +16,7 @@ enum Category {
   sports,
   geography,
   literature,
+  technology,
 }
 
 class Question {

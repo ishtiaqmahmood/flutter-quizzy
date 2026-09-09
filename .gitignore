@@ -1,27 +1,91 @@
 ```
-# Build artifacts
-build/
+# Flutter/Dart specific
 .dart_tool/
-*.g.dart
+.packages
+flutter/
+build/
+*.iws
+*.lock
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+logs/
+logs/**
+!.gitkeep
+coverage/
+*.lcov
+test/**
+!test/.gitkeep
+integration_test/**
+!integration_test/.gitkeep
 
 # Dependencies
-pubspec.lock
+.pub-cache/
+.pub/
+packages/
 
-# Logs
-*.log
-
-# Environment
+# Environment variables
 .env
 .env.local
-*.env.*
+.env.*
+!.env.example
 
-# IDE
+# IDE files
 .vscode/
 .idea/
+*.iml
+*.ipr
+*.iws
 *.swp
 *.swo
 
-# OS
+# Logs
+*.log
+logs/
+
+# OS generated files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Build artifacts
+build/
+bin/
+obj/
+out/
+target/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
