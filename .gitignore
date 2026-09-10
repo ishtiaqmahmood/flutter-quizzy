@@ -2,33 +2,30 @@
 # Dependencies
 .dart_tool/
 .packages
-.pub/
 
-# Build
+# Build outputs
 build/
-*.apk
-*.aab
-*.ipa
-
-# Emulator
-*.keystore
-
-# Logs
-*.log
-
-# Coverage
-coverage/
-
-# Temporary files
-*.tmp
-*.temp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# OS generated files
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
 .DS_Store
 Thumbs.db
 ```
