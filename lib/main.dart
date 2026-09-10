@@ -28,19 +28,33 @@ class QuizzyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.indigo,
           brightness: Brightness.light,
+          primary: const Color(0xFF6366F1),
+          secondary: const Color(0xFF8B5CF6),
+          tertiary: const Color(0xFFEC4899),
+          surface: const Color(0xFFF8FAFC),
+          background: const Color(0xFFF1F5F9),
         ),
         useMaterial3: true,
+        fontFamily: 'Poppins',
         cardTheme: CardTheme(
-          elevation: 2,
+          elevation: 0,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(12),
+            borderRadius: BorderRadius.circular(20),
           ),
+          color: Colors.white,
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
-            elevation: 2,
-            padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+            elevation: 0,
+            padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(16),
+            ),
           ),
+        ),
+        appBarTheme: const AppBarTheme(
+          centerTitle: true,
+          elevation: 0,
         ),
       ),
       initialRoute: '/home',
